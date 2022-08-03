@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    height: 100vh;
+    max-width: 100%;
+    width: 60rem;
+    margin-left: 30rem;
+
+}
+
+.brand {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 60rem;
+    height: 55%;
+}
+
+.suv {
+    width: 100%;
+    height: 538px;
+}
+
+.luxury {
+
+}
+
+.brand {
+    display: flex;
+    margin-top: 1em;
+    margin-left: 3rem;
+    font-size: 50px;
+   
+}
+
+ img{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    width: inherit;
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: inherit;
+    height: 538px;
+}
+
+.description {
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 2rem;
+    margin-left: 3rem;
+    line-height: 1.8rem;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 8rem;
+    height: 2.8rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    mix-blend-mode: screen;
+}
+
+.learn:hover {
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+/* 
+@media (min-width: 680px) and (max-width: 1080px) {
+     .container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    } 
+    .cars {
+         padding: 10em; 
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        height: inherit;
+        align-items: center;
+    }
+     .sedan {
+        width: inherit;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+    }
+    .luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+    } 
+}
+    */
+
